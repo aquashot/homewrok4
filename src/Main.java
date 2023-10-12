@@ -69,6 +69,7 @@ public class Main {
     }else {
             System.out.println("если"+baby+"больше чем"+apple+"и меньше чем "+cross+"то полкчается"+cross+"будет наибольшое число");
         }
+        System.out.println("Сделано!");
     }
 }
 
