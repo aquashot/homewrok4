@@ -26,26 +26,21 @@ public class Main {
         int year = 32;
         if (year >= 2 && year <= 6) {
             System.out.println("Если возраст человека равен" + year + "то ему нужно ходить в садик ");
-        }
-        if (year >= 7 && year <= 17) {
+        } else if (year >= 7 && year <= 17) {
             System.out.println("Если возраст человека равен " + year + "то ему нужно ходить в школу");
-        }
-        if (year >= 18 && year <= 24) {
+        } else if (year >= 18 && year <= 24) {
             System.out.println("Если возраст равен" + year + "то ему нужно ходить в универ");
-        }
-        if (year >= 24) {
+        }else if (year >= 24) {
             System.out.println("Если возраст равен" + year + "то ему нужно ходить на работу");
         }
         System.out.println("Задача 5");
-        int children = 3;
+        int children = 16;
         if (children < 5) {
             System.out.println("если ребенку меньше" + children + "то он не может кататься на аттракционе");
-        }
-        if (children > 5 && children < 14) {
-            System.out.println("Если ребенку " + children + "то ему можно кататься со взрослым ");
-        }
-        if (children > 14) {
-            System.out.println("Если ребенку больше" + children + "то он может кататься один");
+        } else if (children >=5 && children <=14) {
+            System.out.println("если ребенку больше"+children+"но меньше"+children+"то он может кататься в сопровождении взрослого");
+        } else if (children >14) {
+            System.out.println("если ребенку больше "+children+"то он может кататься один");
         }
         System.out.println("задача 6");
         int railway = 35;
